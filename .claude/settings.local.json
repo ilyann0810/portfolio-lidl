@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Users/Ilyann/Desktop/app/portfolio_lidl/site/public/img/team\")",
+      "Bash(cp \"C:/Users/Ilyann/Desktop/app/portfolio_lidl/asset2/character_ilyann.png\" \"C:/Users/Ilyann/Desktop/app/portfolio_lidl/site/public/img/team/ilyann.png\")"
+    ]
+  }
+}

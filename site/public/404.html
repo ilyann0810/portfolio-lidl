@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ilyann Mouisset — Rendu Lidl France</title>
+    <script>
+      // SPA redirect for GitHub Pages: rewrite the path into a query string,
+      // then index.html restores it via History API. Keeps deep links like /equipe working on refresh.
+      // See https://github.com/rafgraph/spa-github-pages
+      var segmentCount = 1; // /portfolio-lidl/ = 1 segment
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

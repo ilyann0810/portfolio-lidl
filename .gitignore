@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+site/dist/
+
+# Vite cache
+site/.vite/
+.vite/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+.env
+.env.local
+
+# Playwright artifacts
+.playwright-mcp/
+audit-*.png
+equipe-*.png
