@@ -5,14 +5,13 @@ node_modules/
 site/dist/
 
 # Vite cache
-site/.vite/
 .vite/
+site/.vite/
 
 # Editor
 .vscode/
 .idea/
 *.swp
-.claude/
 
 # OS
 .DS_Store
@@ -21,17 +20,4 @@ Thumbs.db
 # Local env
 .env
 .env.local
-
-# Playwright artifacts
-.playwright-mcp/
-audit-*.png
-equipe-*.png
-*.png.bak
-
-# Source assets (not used by the site directly — only working copies live in site/public/)
-asset2/
-
-# Working files not part of the deliverable site
-CV_*.pdf
-lidl.md
-*.pdf
+.env.*.local

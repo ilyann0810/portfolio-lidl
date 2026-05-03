@@ -232,7 +232,7 @@ function PersoProject({ p }) {
 export default function ProjetsPage() {
   return (
     <PageLayout
-      kicker="Chapitre 06"
+      kicker="Chapitre 05"
       title="PROJETS"
       lead="Deux projets data conçus spécifiquement pour cette candidature, avec des datasets simulés qui collent au métier du Contrôle de Gestion. Plus une sélection de projets professionnels et académiques."
     >
