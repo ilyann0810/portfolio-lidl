@@ -219,6 +219,56 @@ export default function ParcoursPage() {
           </div>
         </div>
       </div>
+
+      {/* ═════════════════════════ CONTACT ═════════════════════════ */}
+      <div className="section-card" style={{ borderLeft: "4px solid var(--lidl-red)" }}>
+        <h3 style={{ color: "var(--lidl-red)" }}>Me contacter</h3>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 16, marginTop: 12 }}>
+          <div>
+            <div style={{
+              fontFamily: "Anton, sans-serif", fontStyle: "italic", fontSize: 12,
+              letterSpacing: 2, color: "var(--lidl-yellow)", textTransform: "uppercase",
+              marginBottom: 4,
+            }}>Email</div>
+            <a href="mailto:ilyann0810@gmail.com" style={{ fontSize: 15, color: "var(--lidl-white)" }}>
+              ilyann0810@gmail.com
+            </a>
+          </div>
+          <div>
+            <div style={{
+              fontFamily: "Anton, sans-serif", fontStyle: "italic", fontSize: 12,
+              letterSpacing: 2, color: "var(--lidl-yellow)", textTransform: "uppercase",
+              marginBottom: 4,
+            }}>Téléphone</div>
+            <a href="tel:+33651364933" style={{ fontSize: 15, color: "var(--lidl-white)" }}>
+              06 51 36 49 33
+            </a>
+          </div>
+          <div>
+            <div style={{
+              fontFamily: "Anton, sans-serif", fontStyle: "italic", fontSize: 12,
+              letterSpacing: 2, color: "var(--lidl-yellow)", textTransform: "uppercase",
+              marginBottom: 4,
+            }}>GitHub</div>
+            <a
+              href="https://github.com/ilyann0810"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: 15, color: "var(--lidl-white)" }}
+            >
+              github.com/ilyann0810
+            </a>
+          </div>
+          <div>
+            <div style={{
+              fontFamily: "Anton, sans-serif", fontStyle: "italic", fontSize: 12,
+              letterSpacing: 2, color: "var(--lidl-yellow)", textTransform: "uppercase",
+              marginBottom: 4,
+            }}>Localisation</div>
+            <span style={{ fontSize: 15 }}>Paris, Île-de-France</span>
+          </div>
+        </div>
+      </div>
     </PageLayout>
   );
 }

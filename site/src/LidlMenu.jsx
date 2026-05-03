@@ -7,7 +7,7 @@ const ITEMS = [
   { id: "vision",   label: "MA VISION",    page: "vision",   fontSize: 96,  offsetX: 6,  offsetY: 42, skew: 0, skewY: 0 },
   { id: "parcours", label: "MON PARCOURS", page: "parcours", fontSize: 72,  offsetX: 14, offsetY: 46, skew: 0, skewY: 0 },
   { id: "equipe",   label: "L'ÉQUIPE",     page: "equipe",   fontSize: 80,  offsetX: 10, offsetY: 42, skew: 0, skewY: 0 },
-  { id: "contact",  label: "CONTACT",      page: "contact",  fontSize: 68,  offsetX: 8,  offsetY: 42, skew: 0, skewY: 0 },
+  { id: "projets",  label: "PROJETS",      page: "projets",  fontSize: 76,  offsetX: 8,  offsetY: 42, skew: 0, skewY: 0 },
 ];
 
 const clip = (w, h) => `polygon(0px 0px, ${w}px ${h * 0.5}px, 0px ${h}px)`;

@@ -7,7 +7,7 @@ import PostePage from './pages/PostePage'
 import VisionPage from './pages/VisionPage'
 import ParcoursPage from './pages/ParcoursPage'
 import EquipePage from './pages/EquipePage'
-import ContactPage from './pages/ContactPage'
+import ProjetsPage from './pages/ProjetsPage'
 import { AudioStartGate, AudioPanel } from './AudioGate'
 import { useBgm } from './audio'
 import { asset } from './asset'
@@ -56,8 +56,8 @@ function AnimatedRoutes() {
         <Route path="/equipe" element={
           <PageTransition variant="cards"><EquipePage /></PageTransition>
         } />
-        <Route path="/contact" element={
-          <PageTransition variant="stripes"><ContactPage /></PageTransition>
+        <Route path="/projets" element={
+          <PageTransition variant="stripes"><ProjetsPage /></PageTransition>
         } />
       </Routes>
     </AnimatePresence>

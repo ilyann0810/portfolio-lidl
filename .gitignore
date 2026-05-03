@@ -12,6 +12,7 @@ site/.vite/
 .vscode/
 .idea/
 *.swp
+.claude/
 
 # OS
 .DS_Store
@@ -25,3 +26,12 @@ Thumbs.db
 .playwright-mcp/
 audit-*.png
 equipe-*.png
+*.png.bak
+
+# Source assets (not used by the site directly — only working copies live in site/public/)
+asset2/
+
+# Working files not part of the deliverable site
+CV_*.pdf
+lidl.md
+*.pdf
