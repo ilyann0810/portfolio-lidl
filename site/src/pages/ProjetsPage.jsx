@@ -11,7 +11,6 @@ const PROJECTS_LIDL = [
     pitch: "Modèle de Machine Learning pour anticiper le chiffre d'affaires mensuel de chaque magasin Lidl, avec un dataset simulé qui reproduit la saisonnalité et les effets régionaux.",
     stack: ["Python", "scikit-learn", "XGBoost", "Pandas", "Jupyter"],
     repo: "https://github.com/ilyann0810/lidl-ca-prediction",
-    status: "À venir",
     accent: "yellow",
     why: "Cas d'usage typique du Contrôle de Gestion : anticiper le CA pour ajuster les budgets et détecter les écarts.",
   },
@@ -21,7 +20,6 @@ const PROJECTS_LIDL = [
     pitch: "Notebook d'analyse qui score chaque magasin sur sa pertinence à ouvrir le dimanche, basé sur le traffic, la zone de chalandise et l'historique de ventes simulé.",
     stack: ["Python", "Pandas", "scikit-learn", "Matplotlib", "Jupyter"],
     repo: "https://github.com/ilyann0810/lidl-sunday-scoring",
-    status: "À venir",
     accent: "yellow",
     why: "Question stratégique réelle pour la grande distribution. Outil d'aide à la décision pour le réseau de 1 580 magasins.",
   },
@@ -117,20 +115,6 @@ function LidlProject({ p }) {
       }}
     >
       <div style={{
-        position: "absolute",
-        top: 18,
-        right: 22,
-        background: "var(--lidl-red)",
-        color: "var(--lidl-white)",
-        fontFamily: "Anton, sans-serif",
-        fontSize: 12,
-        letterSpacing: 2,
-        padding: "3px 10px",
-        textTransform: "uppercase",
-        transform: "rotate(-3deg)",
-      }}>{p.status}</div>
-
-      <div style={{
         fontFamily: "Anton, sans-serif",
         fontStyle: "italic",
         fontSize: 24,
@@ -138,7 +122,6 @@ function LidlProject({ p }) {
         textTransform: "uppercase",
         letterSpacing: 1,
         marginBottom: 10,
-        paddingRight: 110,
       }}>{p.title}</div>
 
       <p style={{ marginBottom: 12, lineHeight: 1.55 }}>{p.pitch}</p>
